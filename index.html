@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD App</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="photon.min.css" />
+
+  </head>
+  
+  <body>
+
+    <ul>
+      <li><a href="index2.html">Home</a></li>
+      <li style="float:right"><a class="active" href="index.html">Hiking Notes</a></li>
+    </ul>
+
+    
+    
+      <h1>HIKING NOTES</h1>
+
+      <form>
+        <div class="form-group">
+          <label>File name</label>
+          <input id="fileName" type="text" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label>Content</label>
+          <textarea id="fileContents" class="form-control" rows="5"></textarea>
+
+        </div>
+      </form>
+
+      <button id="btnCreate" class="btn btn-default">Create</button>
+      <button id="btnRead" class="btn btn-default">Read</button>
+      <button id="btnDelete" class="btn btn-default">Delete</button>
+      <button id="btnUpdate" class="btn btn-default">Update</button>
+
+    
+  
+
+    <script src="main.js">
+      
+      
+    </script>
+  </body>
+</html>
